@@ -53,7 +53,7 @@ Saat dokumen PDF diupload, teksnya dipotong-potong menjadi bagian kecil (chunk) 
 
 **Fungsi:** *(Jelaskan dengan kata-katamu sendiri apa fungsi dari CHUNK_SIZE)*
 
-> Jawab: _SIZE berfungsi untuk menentukan panjang tiap potongan teks dari PDF, nilai lebih besar membuat potongan berisi lebih banyak konteks (lebih lambat, risiko pencarian kurang presisi), sedangkan nilai lebih kecil membuat potongan lebih singkat (lebih cepat, tapi bisa memecah konteks sehingga jawaban kurang lengkap).
+> Jawab: CHUNK_SIZE berfungsi untuk menentukan panjang tiap potongan teks dari PDF, nilai lebih besar membuat potongan berisi lebih banyak konteks (lebih lambat, risiko pencarian kurang presisi), sedangkan nilai lebih kecil membuat potongan lebih singkat (lebih cepat, tapi bisa memecah konteks sehingga jawaban kurang lengkap).
 
 **Pengaruhnya:**
 
